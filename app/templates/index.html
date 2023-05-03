@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Namaste, {{ user.username }}</h1>
+<h1>Namaste, {{ current_user.username }}</h1>
 
 {% for post in posts %}
 <li>
